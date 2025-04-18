@@ -3,12 +3,45 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Task Management System</title>
+    <title>Shop Management System</title>
     <link rel="stylesheet" href="./styles/style.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
   </head>
   <body>
     <main>
+      <nav>
+        <h1 class="logo">
+          <a href="#">Rojen</a>
+        </h1>
+        <ul>
+          <li><a href="#">home</a></li>
+          <li><a href="#">home</a></li>
+          <li><a href="#">home</a></li>
+          <li><a href="#">home</a></li>
+          <li><a href="#">home</a></li>
+        </ul>
+      </nav>
+      <section class="hero">
+        <h1 class="heading">Shop Management System</h1>
+        <form id="product-form">
+          <input type="text" id="product-name" placeholder="Product Name" required />
+          <input type="number" id="product-price" placeholder="Price" required />
+          <input type="number" id="product-qty" placeholder="Quantity" required />
+          <button type="submit">Add Product</button>
+        </form>
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Price (₨)</th>
+              <th>Qty</th>
+              <th>Total</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody id="product-table"></tbody>
+        </table>
+      </section>
     </main>
     <script src="./scripts/script.js"></script>
   </body>
