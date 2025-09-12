@@ -27,9 +27,9 @@
   width: 2rem;
   object-fit: cover;
   border-radius: 50%;
-  } */
-  
-  .image-logo[alt] {
+} */
+
+.image-logo[alt] {
   font-size: 0.5rem;
   color: var(--c200);
 }
@@ -40,9 +40,8 @@
   color: var(--c200);
 }
 
-.menu-icon {
+.icon {
   font-size: 1.2rem;
-  font-weight: bolder;
   color: var(--c200);
   cursor: pointer;
 }
@@ -60,30 +59,33 @@
   cursor: pointer;
 }
 
-.active {
-  font-weight: 600;
+.active,
+.active-icon {
   border: none;
   color: var(--c700);
   background-color: var(--c50);
 }
 
 .sidenav-item:hover {
-  font-weight: 600;
   color: var(--c50);
   background-color: var(--c400);
 }
 
-.active:hover {
+.sidenav-item:hover,
+.sidenav-item:hover .icon {
+  color: var(--c50);
+  background-color: var(--c400);
+}
+
+.active:hover,
+.active:hover .active-icon {
+  color: var(--c700);
   background-color: var(--c50);
 }
 
 .sidenav-bottom-part {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
   padding: 1rem 2rem;
-}
-
-.setting-icon {
-  font-size: 1.2rem;
-  font-weight: bolder;
-  color: var(--c200);
-  cursor: pointer;
 }
