@@ -20,9 +20,9 @@ body {
   background-color: var(--c50);
 }
 
-/* body {
+body {
   display: flex;
-} */
+}
 
 :root {
   --primary-color: pink;
