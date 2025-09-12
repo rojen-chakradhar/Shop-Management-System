@@ -1,0 +1,89 @@
+.sidenav {
+  height: 100vh;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--c600);
+  overflow: hidden;
+}
+
+.sidenav-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  cursor: pointer;
+}
+
+/* .image-logo {
+  height: 2rem;
+  width: 2rem;
+  object-fit: cover;
+  border-radius: 50%;
+  } */
+  
+  .image-logo[alt] {
+  font-size: 0.5rem;
+  color: var(--c200);
+}
+
+.text-logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--c200);
+}
+
+.menu-icon {
+  font-size: 1.2rem;
+  font-weight: bolder;
+  color: var(--c200);
+  cursor: pointer;
+}
+
+.sidenav-list {
+  margin-top: 1rem;
+}
+
+.sidenav-item {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--c200);
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.active {
+  font-weight: 600;
+  border: none;
+  color: var(--c700);
+  background-color: var(--c50);
+}
+
+.sidenav-item:hover {
+  font-weight: 600;
+  color: var(--c50);
+  background-color: var(--c400);
+}
+
+.active:hover {
+  background-color: var(--c50);
+}
+
+.sidenav-bottom-part {
+  padding: 1rem 2rem;
+}
+
+.setting-icon {
+  font-size: 1.2rem;
+  font-weight: bolder;
+  color: var(--c200);
+  cursor: pointer;
+}

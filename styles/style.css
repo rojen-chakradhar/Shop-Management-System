@@ -17,5 +17,27 @@ html,
 body {
   height: 100%;
   width: 100%;
+  background-color: var(--c50);
 }
 
+/* body {
+  display: flex;
+} */
+
+:root {
+  --primary-color: pink;
+  --secondary-color: pink;
+  --third-color: pink;
+  --text-color: pink;
+  --c50: #fff1f1;
+  --c100: #ffe4e4;
+  --c200: #fdced0;
+  --c300: #fca5a8;
+  --c400: #f9737a;
+  --c500: #f14250;
+  --c600: #de2039;
+  --c700: #b7142d;
+  --c800: #9d142e;
+  --c900: #86152e;
+  --c950: #4b0613;
+}
