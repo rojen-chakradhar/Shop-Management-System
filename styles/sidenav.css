@@ -36,18 +36,15 @@
 
 .text-logo {
   font-size: 1.5rem;
-  font-weight: 700;
-  color: var(--c200);
+  font-weight: 800;
+  text-transform: uppercase;
+  color: var(--c50);
 }
 
 .sidenav-icon {
   font-size: 1.2rem;
   color: var(--c200);
   cursor: pointer;
-}
-
-.sidenav-list {
-  margin-top: 1rem;
 }
 
 .sidenav-list-item {

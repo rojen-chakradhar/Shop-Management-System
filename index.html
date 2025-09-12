@@ -3,10 +3,15 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shop Management Dashboard</title>
+    <meta name="description" content="Management system for shopkeepers to manage their shops efficiently">
+    <meta name="keywords" content="shop management, inventory, orders, customers, staff, finance, tasks, dashboard, shopkeeper, management system, shop management system">
+    <!-- TODO: change the page title of the webpage from dashboard to "company name | page name" -->
+    <title>Dashboard</title>
     <!-- <link rel="shortcut icon" href="https://img.freepik.com/premium-vector/modern-restaurant-logo-design-template_872774-98.jpg" type="image/x-icon"> -->
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/global.css">
     <link rel="stylesheet" href="./styles/sidenav.css">
+    <link rel="stylesheet" href="./styles/hero-header.css">
+    <link rel="stylesheet" href="./styles/style.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
   </head>
   <body>
@@ -14,10 +19,12 @@
       <section class="sidenav-header">
         <div class="sidenav-inner-header">
           <a href="#" class="logo">
-            <img src="https://img.freepik.com/premium-vector/modern-restaurant-logo-design-template_872774-98.jpg" alt="logo image" class="image-logo">
-            <h1 class="text-logo">kkg</h1>
+            <!-- TODO: change the logo of the company to something else from flag of nepal -->
+            <!-- <img src="https://img.freepik.com/premium-vector/modern-restaurant-logo-design-template_872774-98.jpg" alt="logo image" class="image-logo"> -->
+            <img src="https://ih1.redbubble.net/image.5257416968.2225/st,small,507x507-pad,600x600,f8f8f8.jpg" alt="logo image" class="image-logo">
+            <!-- TODO: change the name of the company to something else from nepal -->
+            <h1 class="text-logo">nepal</h1>
           </a>
-          <i class="ri-menu-line menu-icon sidenav-icon"></i>
         </div>
         <ul class="sidenav-list">
           <a href="./index.html">
@@ -55,10 +62,35 @@
         <i class="ri-moon-fill theme-icon sidenav-icon"></i>
       </section>
     </aside>
-    <main>
+    <main class="hero">
       <header class="hero-header">
-        <h2 class="page-name">dashboard</h2>
+        <section class="title">
+          <i class="ri-menu-line menu-icon"></i>
+          <h2 class="page-name">dashboard</h2>
+        </section>
+        <section class="left-hero-header">
+          <ul class="utilities">
+            <li class="utility">
+              <i class="ri-notification-line header-icon"></i>
+            </li>
+            <li class="utility">
+              <i class="ri-message-line header-icon"></i>
+            </li>
+            <li class="utility">
+              <i class="ri-gift-line header-icon"></i>
+            </li>
+          </ul>
+          <section class="acc">
+            <div class="staff">
+              <p class="job-title">admin</p>
+              <!-- TODO: change the username from bhrasta sarkar to something else -->
+              <h3 class="username">bhrasta sarkar</h3>
+            </div>
+            <img src="https://english.headlinenepal.com/images/uploads/%20-media1717400962.png" alt="profile picture" class="pfp">
+          </section>
+        </section>
       </header>
+      <section class="container"></section>
     </main>
     <script src="./scripts/script.js"></script>
   </body>
