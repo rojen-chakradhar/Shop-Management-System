@@ -1,25 +1,24 @@
+.hero {
+	flex: 1;
+	overflow-y: auto;
+}
+
+.hero::-webkit-scrollbar {
+	width: 0.5rem;
+}
+
+.hero::-webkit-scrollbar-thumb {
+	background-color: var(--c600);
+	border-radius: 1rem;
+}
+
+.hero::-webkit-scrollbar-track {
+	background-color: var(--c300);
+}
+
 .container {
-  height: 100%;
+	width: 100%;
   padding: 1rem;
-  overflow-y: auto;
-}
-
-/* TODO: make the scroll work */
-
-.container::-webkit-scrollbar {
-  width: 0.5rem;
-}
-
-.container::-webkit-scrollbar-thumb {
-  background-color: var(--c600);
-  border-radius: 1rem;
-}
-
-.container::-webkit-scrollbar-track {
-  background-color: var(--c300);
-}
-
-.analysis {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	grid-template-rows: repeat(2, max-content);
@@ -142,7 +141,7 @@ summary {
 }
 
 .cc {
-  margin-top: 1rem;
+	padding: 1rem;
   text-align: center;
   font-weight: 400;
   color: var(--c900);
